@@ -40,3 +40,23 @@ Finally, in separate terminals, run `npm start` in each folder so that the API a
 | /places/new           | `places/NewPlaceForm.js`  | Form for creating a new place                                                   |
 | /places/:placeId      | `places/PlaceDetails.js`  | Details of a place, including it's comments, and a form to create a new comment |
 | /places/:placeId/edit | `places/EditPlaceForm.js` | Form for editing a place                                                        |
+
+
+
+
+
+seeders for DB
+Create DB, tables and Columns
+npm i
+"dependencies": {
+"dotenv": "^16.0.3",
+"mysql2": "^3.1.0",
+"pg": "^8.9.0",
+"sequelize": "^6.28.0"
+}
+}
+command: npx sequelize-cli db:seed:all
+
+front end---
+npm remove react-scripts
+npm i react-scripts (to bring it to version 5)
